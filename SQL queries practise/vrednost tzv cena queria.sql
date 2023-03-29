@@ -1,0 +1,2 @@
+show status like 'last_query_cost';
+/* kada vrsimo odredjene pretrage sortiranja desc ili ako koristimo vise kolona 'cena' moze varirati, u ekstra koloni vidimo sta je koprisceno , file sort je skup! */
