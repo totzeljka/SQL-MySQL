@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2023-03-29T09:41:59.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="XB5Bb2-S_pYij9qCFvWl" version="21.1.1" type="device">
+  <diagram name="Page-1" id="HL6S5yYOEXyTc2v0XYHq">
+    <mxGraphModel dx="875" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kOg-SG1Q-b-Xm-BYNEsy-5" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kOg-SG1Q-b-Xm-BYNEsy-6" value="firstName (string)&lt;br&gt;lastName(string)&lt;br&gt;email (string)&lt;br&gt;dateRegistered (dateTime)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="kOg-SG1Q-b-Xm-BYNEsy-5">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kOg-SG1Q-b-Xm-BYNEsy-7" value="Course" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kOg-SG1Q-b-Xm-BYNEsy-8" value="title (string)&lt;br&gt;price (float)&lt;br&gt;instructor (string)&lt;br&gt;tags (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="kOg-SG1Q-b-Xm-BYNEsy-7">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kOg-SG1Q-b-Xm-BYNEsy-11" value="Enrollment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kOg-SG1Q-b-Xm-BYNEsy-12" value="date (dateTime)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="kOg-SG1Q-b-Xm-BYNEsy-11">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kOg-SG1Q-b-Xm-BYNEsy-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="kOg-SG1Q-b-Xm-BYNEsy-6" target="kOg-SG1Q-b-Xm-BYNEsy-12">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="325" y="160" as="sourcePoint" />
+            <mxPoint x="425" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kOg-SG1Q-b-Xm-BYNEsy-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=-0.019;exitY=0.299;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kOg-SG1Q-b-Xm-BYNEsy-7" target="kOg-SG1Q-b-Xm-BYNEsy-12">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="380" y="210" as="sourcePoint" />
+            <mxPoint x="480" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
